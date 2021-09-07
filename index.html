@@ -1,6 +1,62 @@
-<div>hello</div>
+<!-- <div>hello</div>
 HEAD
 <p>world</p>
 
 <p>there</p>
- master
+ master -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style>
+         .out{
+             display: inline-block;
+             width: 120px;
+             height: 70px;
+             background-color: transparent;
+             
+             margin: 5em;
+             animation: outline  2s ease infinite;
+         }
+         @keyframes outline {
+            0%{
+                border: 2px solid wheat;
+                 transform: scale(0.5);
+                 opacity: 1;
+             }
+             
+             100%{
+                 border: 2px solid wheat;
+                 transform: scale(1);
+                 opacity: 1;
+
+             }
+             
+         }
+
+         .div1{
+            color: white;
+            width: 50%;
+            height: 50%;
+            margin: 0.5em;
+            border-radius: 5px;
+            background-color: purple;
+            text-align: center;
+            padding: 5px;
+ ;
+
+         }
+
+     </style>
+ </head>
+ <body style="background-color: seagreen;">
+    <div class="out">
+    <div class="div1">16px</div>
+</div>
+ </body>
+ </html>
+ 
